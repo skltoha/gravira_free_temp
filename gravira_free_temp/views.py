@@ -13,6 +13,14 @@ def clients(request):
      return render(request, 'clients.html', {'request': request})
 
 
+def services(request):
+     return render(request, 'services.html', {'request': request})
+
+
+def projects(request):
+     return render(request, 'projects.html', {'request': request})
+
+
 def about(request):
      return render(request, 'about.html', {'request': request})
 
