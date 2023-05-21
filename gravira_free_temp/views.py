@@ -5,11 +5,11 @@ def index(request):
      return render(request, 'index.html', {'request': request})
 
 
-def clients(request):
+def contact(request):
      return render(request, 'contact.html', {'request': request})
 
 
-def contact(request):
+def clients(request):
      return render(request, 'clients.html', {'request': request})
 
 
