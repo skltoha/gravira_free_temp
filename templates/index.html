@@ -23,7 +23,7 @@
                   alteration in some form, by injected humour, or randomised words which don't look even slightly
                   believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
                 </p>
-                <div class="contact_bt"><a href="#">CONTACT US</a></div>
+                <div class="contact_bt"><a href="{% url 'contact' %}">CONTACT US</a></div>
                 <div class="get_bt"><a href="#">GET A QUOTE NOW</a></div>
               </div>
             </div>
@@ -50,7 +50,7 @@
                   alteration in some form, by injected humour, or randomised words which don't look even slightly
                   believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
                 </p>
-                <div class="contact_bt"><a href="#">CONTACT US</a></div>
+                <div class="contact_bt"><a href="{% url 'contact' %}">CONTACT US</a></div>
                 <div class="get_bt"><a href="#">GET A QUOTE NOW</a></div>
               </div>
             </div>
@@ -77,7 +77,7 @@
                   alteration in some form, by injected humour, or randomised words which don't look even slightly
                   believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
                 </p>
-                <div class="contact_bt"><a href="#">CONTACT US</a></div>
+                <div class="contact_bt"><a href="{% url 'contact' %}">CONTACT US</a></div>
                 <div class="get_bt"><a href="#">GET A QUOTE NOW</a></div>
               </div>
             </div>
@@ -115,7 +115,7 @@
             more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it
             look like readable English. Many desktop publishing packages and web
           </p>
-          <div class="about_bt"><a href="#">ABOUT MORE</a></div>
+          <div class="about_bt"><a href="{% url 'about' %}">ABOUT MORE</a></div>
         </div>
       </div>
       <div class="col-md-6 padding_0">
@@ -301,16 +301,20 @@
       <div class="row map_addres">
         <div class="col-sm-12 col-lg-4">
           <div class="map_text">
-            <img src="{% static 'images/map-icon.png' %}" /><span class="map_icon">No.123 Chalingt Gates, Supper market New York</span>
+            <img src="{% static 'images/map-icon.png' %}" /><span class="map_icon"
+              >No.123 Chalingt Gates, Supper market New York</span
+            >
           </div>
         </div>
         <div class="col-sm-12 col-lg-4">
           <div class="map_text">
-            <img src="{% static 'images/phone-icon.png' %}" /><span class="map_icon">( +71 7986543234 )</span>
+            <img src="{% static 'images/phone-icon.png' %}" /><span class="map_icon">( +880 171000000 )</span>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <div class="map_text"><img src="{% static 'images/email-icon.png' %}" /><span class="map_icon">demo@gmail.com</span></div>
+          <div class="map_text">
+            <img src="{% static 'images/email-icon.png' %}" /><span class="map_icon">demo@gmail.com</span>
+          </div>
         </div>
       </div>
       <div class="social_icon">
